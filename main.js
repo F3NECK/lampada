@@ -17,7 +17,7 @@ function toogle() {
 
 function toogle(){
     lampada = document.getElementById("img").scroll;
-    if (lampada = "deligado.png") {
+    if (lampada.indexOf('desligado.png')!=-1) {
         document.getElementById("img").src = "ligado.png"
     } else {
         document.getElementById("img").src = "desligado.png"
